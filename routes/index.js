@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-//here i take o name before was api and trade for Router of rotas!!!
+// here i take and before name change to router!!
 router.get('/', (req, res) =>{
     res.send('Felipe Programer 18')
  })
