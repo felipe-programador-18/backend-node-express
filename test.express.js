@@ -11,6 +11,7 @@ const clientRouter = require('./routes/client')
 
 api.listen(poor, () => console.log('listing of poor' + poor))
 
+//the command router i get all request that seeing here !!!
 api.use((req, res, next) => {
     console.log('passed through here')
     next()
