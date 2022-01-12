@@ -5,8 +5,8 @@ const router = express.Router()
 const Time = require('../controllers/index')
 const Moretime = require('../controllers/index')
 // here i take and before name change to router!!
-router.get('/', Time)
-router.get('/page',Moretime)
+router.get('/', Time.recept)
+router.get('/page',Moretime.caught)
 
 
  module.exports = router
