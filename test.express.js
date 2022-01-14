@@ -14,7 +14,7 @@ api.listen(poor, () => console.log('listing of poor' + poor))
 //the command router i get all request that seeing here !!!
 // this is middlaware
 api.use((req, res, next) => {
-    console.log('passed through here')
+    console.log('passed to here')
     next()
 })
 
